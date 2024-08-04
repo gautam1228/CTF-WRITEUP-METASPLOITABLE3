@@ -1,0 +1,7 @@
+/.php                [33m (Status: 403)[0m [Size: 283]
+/uploads             [36m (Status: 301)[0m [Size: 313][34m [--> http://192.168.28.3/uploads/][0m
+/chat                [36m (Status: 301)[0m [Size: 310][34m [--> http://192.168.28.3/chat/][0m
+/drupal              [36m (Status: 301)[0m [Size: 312][34m [--> http://192.168.28.3/drupal/][0m
+/phpmyadmin          [36m (Status: 301)[0m [Size: 316][34m [--> http://192.168.28.3/phpmyadmin/][0m
+/.php                [33m (Status: 403)[0m [Size: 283]
+/server-status       [33m (Status: 403)[0m [Size: 292]
