@@ -8,10 +8,9 @@ This writeup documents my process and techniques used to solve the EHE-CTF chall
 
 ## Writeup PDF
 
-You can download the complete writeup in PDF format [here](ehe-ctf-writeup.pdf).
+You can download the complete writeup in PDF format [here](solutions/ehe-ctf-writeup.pdf).
 
-
-[...]
+---
 
 ## Tools Used
 
@@ -27,7 +26,7 @@ Feel free to reach out if you have any questions or suggestions!
 ## Contact
 
 - [Mail](mailto:gautamsingh12122003@gmail.com)
-- [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/gautamsingh28/))
+- [LinkedIn](https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/gautamsingh28/))
 - [Twitter](https://twitter.com/yourprofile)
 
 ## License
