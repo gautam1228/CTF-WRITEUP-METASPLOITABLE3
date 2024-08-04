@@ -18,6 +18,7 @@ You can download the complete writeup in PDF format [here](solutions/ehe-ctf-wri
 - [GoBuster](https://www.kali.org/tools/gobuster/)
 - [Nikto](https://cirt.net/Nikto2)
 - [Metasploit](https://www.metasploit.com/)
+- [John The Ripper](https://www.openwall.com/john/)
 
 ---
 
